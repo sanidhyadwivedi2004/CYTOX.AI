@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyberbullying Protection</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup-container">
+    <header>
+      <h2>Cyberbullying Protection</h2>
+      <p>Enhancing your safety on Instagram.</p>
+    </header>
+
+    <section class="settings-section">
+      <div class="setting">
+        <h3>Parental Control</h3>
+        <p>Enable parental monitoring</p>
+        <label class="switch">
+          <input type="checkbox" id="parentalControl">
+          <span class="slider round"></span>
+        </label>
+      </div>
+
+      <div class="setting">
+        <h3>Progressive Penalty</h3>
+        <p>Automatically issue warnings</p>
+        <label class="switch">
+          <input type="checkbox" id="penaltyControl" checked>
+          <span class="slider round"></span>
+        </label>
+      </div>
+
+      <button id="submitSettings" class="save-btn">Save Settings</button>
+    </section>
+
+    <footer>
+      <p>Powered by Cytox.AI</p>
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

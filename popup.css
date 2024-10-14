@@ -1,0 +1,67 @@
+/* popup.css */
+
+/* Base styling for the popup */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+  background-color: #2e2e2e; /* Dark grey background */
+  color: #f0f0f0; /* Light grey text */
+}
+
+/* Container for the content */
+.popup-container {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Title styling */
+.title {
+  font-size: 1.8em;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+/* Description styling */
+.description {
+  font-size: 1em;
+  color: #b0b0b0; /* Lighter grey for contrast */
+  margin-bottom: 20px;
+}
+
+/* Styling for the buttons */
+button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+/* Report button style */
+.report-button {
+  background-color: #ff4757; /* Eye-catching red */
+  color: white;
+}
+
+.report-button:hover {
+  background-color: #e84148; /* Slightly darker on hover */
+  transform: scale(1.05);
+}
+
+/* Settings button style */
+.settings-button {
+  background-color: #576574; /* Muted grey-blue */
+  color: white;
+}
+
+.settings-button:hover {
+  background-color: #485560; /* Slightly darker on hover */
+  transform: scale(1.05);
+}
